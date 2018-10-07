@@ -1,0 +1,12 @@
+gpg --export-secret-keys -o secring.gpg  //to export sec ring file lastest version of gpg
+gpg --list-keys --keyid-format short //to get the key id
+
+
+create gradle.properties in gradle home by default .gradle/gradle.properties in user directory or configured through GRADLE_USER_HOME
+
+signing.keyId=short code
+signing.password=passpshare
+signing.secretKeyRingFile=path of sec ring.gpg
+
+ossrhUsername=your-jira-id
+ossrhPassword=your-jira-password
