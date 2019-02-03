@@ -1,0 +1,10 @@
+//to enable service
+  systemctl enable ServiceName.service
+//to start service now
+  systemctl start ServiceName.service 
+//to check status
+  systemctl status ServiceName.service
+ 
+ Services
+   NetworkManager.service (need network manager package)
+   dhcpcd.service
