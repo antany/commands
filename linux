@@ -8,3 +8,9 @@
  Services
    NetworkManager.service (need network manager package)
    dhcpcd.service
+
+
+run - below to setup virtual box
+
+sudo pacman -S virtualbox-guest-modules-arch virtualbox-guest-utils
+
