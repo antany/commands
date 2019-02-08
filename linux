@@ -14,6 +14,8 @@ run - below to setup virtual box
 
 sudo pacman -S virtualbox-guest-modules-arch virtualbox-guest-utils
 
+pacman -S xorg virtualbox-guest-utils
+
 sudo pacman -S xorg-server xorg-apps xorg-xinit
 
 sudo pacman -S noto-fonts
