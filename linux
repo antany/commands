@@ -23,3 +23,10 @@ sudo pacman -S noto-fonts
 sudo pacman -S i3-gaps i3status rxvt-unicode dmenu
 
 <ExtraDataItem name="CustomVideoMode1" value="1680x1050x32"/>
+
+
+vlc -chromecast
+
+libmicrodns and protobuf 
+
+if installing abouve doesnt work, $ gnutls-cli --save-cert=chromecast.pem 192.168.1.14:8009
