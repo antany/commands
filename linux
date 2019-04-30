@@ -32,3 +32,6 @@ vlc -chromecast
 libmicrodns and protobuf 
 
 if installing abouve doesnt work, $ gnutls-cli --save-cert=chromecast.pem 192.168.1.14:8009
+
+--RSA Private key format - By default it uses openssh-key format
+ssh-keygen -m PEM -t rsa -b 4096 -C "test@test.com"
